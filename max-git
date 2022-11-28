@@ -2,3 +2,16 @@
 501  git config --global user.name "gopal"
   502  git config --global user.email "gopal1409@gmail.com"
   504  git config --global --list
+  
+  ###lets manage our first project using git
+   28  mkdir project
+   29  cd project/
+   30  touch DS_Store
+   31  touch calc.py
+   32  touch auth
+   33  touch secret
+   35  ls
+   ###then i need to check that this blank file is being managed by git or not. 
+   36  git status
+   ####look into the output
+
