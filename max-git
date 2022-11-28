@@ -1,1 +1,4 @@
-
+###git global varaible. 
+501  git config --global user.name "gopal"
+  502  git config --global user.email "gopal1409@gmail.com"
+  504  git config --global --list
