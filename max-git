@@ -48,5 +48,13 @@
    ###git checkout will remove the previous changes
    71  git checkout calc.py
    72  git diff
-
-
+###.gitignore to ignore files
+ 77  nano .gitignore
+   78  git status
+   79  ls
+   80  git add .
+   81  git commit -m "commited ignore file"
+   82  git log
+   83  git status
+   84  history
+   85  git add -A
