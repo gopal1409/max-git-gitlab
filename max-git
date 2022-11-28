@@ -32,6 +32,7 @@
    55  git log
 
 ###git diff and git checkout
+###to save anything in nano editor Ctrl x then press y and press enter
  60  nano calc.py
    61  git add calc.py
    62  git commit -m "start working on calcy project"
