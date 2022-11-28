@@ -31,5 +31,21 @@
    54  git commit -m "my first commit"
    55  git log
 
+###git diff and git checkout
+ 60  nano calc.py
+   61  git add calc.py
+   62  git commit -m "start working on calcy project"
+   63  git log
+   64  nano calc.py
+   ####git diff will show differenece between the previous commit and the new commit
+   65  git diff
+   66  git add calc.py
+   67  git commit -m "added a new feature"
+   68  git log
+   69  nano calc.py
+   70  git diff
+   ###git checkout will remove the previous changes
+   71  git checkout calc.py
+   72  git diff
 
 
