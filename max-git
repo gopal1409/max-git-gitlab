@@ -14,4 +14,15 @@
    ###then i need to check that this blank file is being managed by git or not. 
    36  git status
    ####look into the output
+   ##3how you are going to manage your repo using git we use a command git init
+    42  git init
+   43  ls -la
+   44  cd .git
+   45  ls
+   46  cd ..
+   47  git status
+   48  rm -rf .git
+   49  git status
+   50  git init
+
 
