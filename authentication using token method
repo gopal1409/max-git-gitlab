@@ -1,0 +1,13 @@
+cd ..
+ 114  mkdir ai
+  115  cd ai
+  116  touch ai.ns
+  117  touch D_
+  118  toucg tet.txt
+  119  touch test.txt
+  120  git status
+  121  git init
+  122  git add .
+  123  git commit -m "my ai project"
+  124  git log
+####
