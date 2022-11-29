@@ -1,0 +1,22 @@
+2 git checkout master
+   3 git pull
+   4 git fetch
+   5 echo "this is a new README file" > README.md
+   6 git add README.md
+   7 git commit -m "added README.md"
+   8 git status
+   9 git branch "branch_to_create_merge_conflict"
+  10 git branch
+  11 git checkout branch_to_create_merge_conflict
+  12 git branch
+  13 git add README.md
+  14 git commit -m "Edit to made to README on the branch"
+  15 git checkout master
+  16 git checkout branch_to_create_merge_conflict
+  17 git checkout master
+  18 git add .\README.md
+  19 git commit -m "edit made to README on master branch"
+  20 git branch
+  21 git merge branch_to_create_merge_conflict
+  22 git checkout branch_to_create_merge_conflict
+  23 git merge branch_to_create_merge_conflict
