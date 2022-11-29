@@ -1,0 +1,17 @@
+1 git branch
+   2 git branch paymentgw
+   3 git branch
+   4 ls
+   5 git checkout payment
+   6 git checkout paymentgw
+   7 git branch
+   8 git status
+   9 git add .
+  10 git commit -m "modified paymentgw"
+  11 git log
+  12 git push origin payment
+  13 git push origin paymentgw
+  14 git branch -a
+  15 git checkout master
+  16 git branch
+  17 git branch -a
