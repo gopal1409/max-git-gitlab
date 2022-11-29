@@ -1,13 +1,19 @@
 cd ..
  114  mkdir ai
   115  cd ai
-  116  touch ai.ns
-  117  touch D_
-
-  119  touch test.txt
-  120  git status
+  #####i create a project directoryu
+  ###create a project framework using dotent
+  dotent new console --framework net6.0
+  ######this will create my dotnet project framework
+  ###i want to manage my project using git
+  
   121  git init
   122  git add .
   123  git commit -m "my ai project"
+  ###then we go to github create a new git repo
+  ####copy the remote repo to my local folder
+  git remote origin http://github.com/gopal1409/dotnet1
+  ###3as per the branch name we will push
+  git push origin master
   124  git log
 ####
