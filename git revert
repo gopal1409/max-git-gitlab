@@ -1,0 +1,15 @@
+1 git init
+   2 touch demo_file
+   3 notepad demo_file
+   4 git add .
+   5 git commit -m "intial commit"
+   6 git log
+   7 notepad .\demo_file.txt
+   8 git commit -am "add new content to demo file"
+   9 git log
+  10 notepad .\demo_file.txt
+
+  12 git commit -am "appen to demo file"
+  13 git log
+  14 git log --oneline
+  15 gi revert HEAD
