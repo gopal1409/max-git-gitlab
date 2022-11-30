@@ -1,5 +1,4 @@
 1 git init
-   2 touch demo_file
    3 notepad demo_file
    4 git add .
    5 git commit -m "intial commit"
