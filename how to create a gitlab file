@@ -1,0 +1,22 @@
+###first create a file the name of the file would be .gitlab-ci.yml
+###put the below content in the file
+
+image: mcr.microsoft.com/dotnet/sdk:5.0
+
+stages:
+  - build
+  - test
+build:
+  stage: build 
+  script:
+    - dotnet build 
+
+test:
+  stage: test
+  script:
+    - dotnet test
+    
+ ###then do 
+ git add .
+ git commit -m "added gitlab file"
+ git push origin master
