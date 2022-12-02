@@ -1,0 +1,11 @@
+1 mkdir MyApp
+   2 mkdir MyApp.Tests
+   3 cd .\MyApp\
+   4 dotnet new webapi -f net6.0
+   5 cd ..
+   6 cd .\MyApp.Tests\
+   7 dotnet new nunit
+   8 cd ..
+   16 dotnet new sln
+  17 dotnet sln add .\MyApp\MyApp.csproj
+  18 dotnet sln add .\MyApp.Tests\MyApp.Tests.csproj
