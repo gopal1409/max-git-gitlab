@@ -6,3 +6,10 @@ build the car:
         - echo "chasis" > car.txt
         - echo "engine" > car.txt 
         - echo "wheels" > car.txt  
+test the car: 
+    script:
+        - test -f build/car.txt 
+        - cd build
+        - grep "chasis" car.txt
+        - grep "engine" car.txt
+        - grep "wheels" car.txt
