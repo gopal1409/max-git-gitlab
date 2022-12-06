@@ -14,7 +14,7 @@ git log
   10 git push origin master
   ###inside my-app project we will create .gitlab-ci.yml file
   ###we will create stages which will install dependencies
- services:
+services:
   - docker:dind
 
 stages:
