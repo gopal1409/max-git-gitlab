@@ -4,3 +4,8 @@
    3 cd .\angular10
    ###creat the skeleton of angular project
    npx @angular/cli new
+##3once your project is ready go to my-app directory
+cd .\my-app\
+git status
+git log
+####then we will create a new repo in gitlab
