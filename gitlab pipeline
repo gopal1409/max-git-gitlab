@@ -10,10 +10,12 @@ build the car:
         - echo "chasis" > car.txt
         - echo "engine" > car.txt 
         - echo "wheels" > car.txt  
+    artifacts:
+        paths:
+            - build/
 test the car: 
     stage: test
     script:
-        - test -f build/car.txt 
         - cd build
         - grep "chasis" car.txt
         - grep "engine" car.txt
