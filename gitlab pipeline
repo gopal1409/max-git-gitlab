@@ -6,7 +6,7 @@ build the car:
     script:
         - mkdir build 
         - cd build
-        - touch car.txt 
+        - new-item car.txt 
         - echo "chasis" > car.txt
         - echo "engine" > car.txt 
         - echo "wheels" > car.txt  
