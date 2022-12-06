@@ -1,0 +1,6 @@
+###first we will create an skeleton of my angular project
+1 cd \
+   2 mkdir angular10
+   3 cd .\angular10
+   ###creat the skeleton of angular project
+   npx @angular/cli new
