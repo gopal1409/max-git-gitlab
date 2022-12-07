@@ -75,3 +75,9 @@ lint:
 ###enale execution policy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 npm install
+
+
+#########how to install runner in a linux system
+ssh gopal@20.42.61.148
+###password
+Admin@12345678
