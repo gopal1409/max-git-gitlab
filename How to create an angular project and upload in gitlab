@@ -14,6 +14,29 @@ git log
   10 git push origin master
   ###inside my-app project we will create .gitlab-ci.yml file
   ###we will create stages which will install dependencies
+ services:
+  - docker:dind
+
+stages:
+  - dependencies
+  - test
+  - build
+  - publish
+
+install_dependencies:
+  image: node:14-alpine
+  stage: dependencies
+  script:
+    - npm install
+  only:
+    - master
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+  ######lets add the lint test
 services:
   - docker:dind
 
@@ -36,4 +59,16 @@ install_dependencies:
         - package-lock.json
     paths:
       - node_modules
-     
+lint:
+  image: node:12-alpine
+  stage: test
+  script:
+    - npm link @angular/cli
+    - ng lint
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules
+    policy: pull
