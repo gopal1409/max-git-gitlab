@@ -72,3 +72,5 @@ lint:
     paths:
       - node_modules
     policy: pull
+###enale execution policy
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
