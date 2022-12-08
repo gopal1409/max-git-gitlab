@@ -1,0 +1,8 @@
+###we will create an azure project
+2 npm install -g @angular/cli
+   3 ng --version
+   4 ng new angular-azure
+   5 ls
+   6 cd .\angular-azure\
+   7 ls
+   8 ng s
